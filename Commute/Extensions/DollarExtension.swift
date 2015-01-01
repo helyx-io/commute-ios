@@ -6,9 +6,7 @@
 //  Copyright (c) 2014 Alexis Kinsella. All rights reserved.
 //
 
-import Dollar
-
-extension Dollar.$ {
+extension $ {
     
     public class func groupBy<T, U: Equatable>(array: [T], function: (T) -> U) -> [U: Array<T>] {
         var result = [U: Array<T>]()

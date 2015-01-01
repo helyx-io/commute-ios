@@ -11,23 +11,26 @@
 		5458267C1A5381C100C0ED55 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5458267B1A5381C100C0ED55 /* StopWatch.swift */; };
 		547752BE1A5225DD00DD0A98 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547752BD1A5225DD00DD0A98 /* MapKit.framework */; };
 		547752C51A52351500DD0A98 /* COAroundMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547752C41A52351500DD0A98 /* COAroundMeViewController.swift */; };
-		5478BF731A52438D008246FB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ADE6281A51C41F0039EF3D /* Alamofire.framework */; };
-		5478BF741A524391008246FB /* Dollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ADE6441A51C5CC0039EF3D /* Dollar.framework */; };
-		5478BF761A5243C5008246FB /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54ADE6351A51C4300039EF3D /* SwiftyJSON.framework */; };
-		5478BF7C1A52449B008246FB /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 54ADE6281A51C41F0039EF3D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5478BF7D1A5244A4008246FB /* SwiftyJSON.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 54ADE6351A51C4300039EF3D /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5478BF7F1A5244CC008246FB /* Dollar.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 54ADE6441A51C5CC0039EF3D /* Dollar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		54B275301A51720F002F75D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB34DC7EE6A8DB8C1D22BCFC /* LaunchScreen.xib */; };
-		54B275311A517212002F75D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB34DC9A0D709A5A2ADEE152 /* Main.storyboard */; };
 		54B275321A51721E002F75D9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB34DC59583A63BDB08C3340 /* Info.plist */; };
 		54B275341A517BCB002F75D9 /* COStationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B275331A517BCB002F75D9 /* COStationTableViewCell.swift */; };
-		54B54A391A51E10A0040AB92 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B54A381A51E10A0040AB92 /* UIColorExtension.swift */; };
-		54B54A401A51E1290040AB92 /* DollarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B54A3F1A51E1290040AB92 /* DollarExtension.swift */; };
-		54B54A5D1A51FF690040AB92 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B54A551A51FF690040AB92 /* MMDrawerBarButtonItem.m */; };
-		54B54A5E1A51FF690040AB92 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B54A581A51FF690040AB92 /* MMDrawerController.m */; };
-		54B54A5F1A51FF690040AB92 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B54A5A1A51FF690040AB92 /* MMDrawerVisualState.m */; };
-		54B54A601A51FF690040AB92 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B54A5C1A51FF690040AB92 /* UIViewController+MMDrawerController.m */; };
-		54B54A651A520C900040AB92 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B54A641A520C900040AB92 /* UIViewControllerExtension.swift */; };
+		54CA210F1A55D8050026D5CA /* COResultStationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CA210E1A55D8050026D5CA /* COResultStationsViewController.swift */; };
+		54CA21251A55E5D20026D5CA /* COStationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54CA21241A55E5D20026D5CA /* COStationTableViewCell.xib */; };
+		54CA21261A55EB420026D5CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB34DC9A0D709A5A2ADEE152 /* Main.storyboard */; };
+		54CA21271A55EB450026D5CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB34DC7EE6A8DB8C1D22BCFC /* LaunchScreen.xib */; };
+		54CA214D1A55EC250026D5CA /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CA21391A55EC250026D5CA /* Alamofire.swift */; };
+		54CA214E1A55EC250026D5CA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54CA213A1A55EC250026D5CA /* Info.plist */; };
+		54CA214F1A55EC250026D5CA /* AutoCurry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CA213C1A55EC250026D5CA /* AutoCurry.swift */; };
+		54CA21501A55EC250026D5CA /* Dollar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CA213E1A55EC250026D5CA /* Dollar.swift */; };
+		54CA21511A55EC250026D5CA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54CA213F1A55EC250026D5CA /* Info.plist */; };
+		54CA21521A55EC250026D5CA /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CA21421A55EC250026D5CA /* MMDrawerBarButtonItem.m */; };
+		54CA21531A55EC250026D5CA /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CA21451A55EC250026D5CA /* MMDrawerController.m */; };
+		54CA21541A55EC250026D5CA /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CA21471A55EC250026D5CA /* MMDrawerVisualState.m */; };
+		54CA21551A55EC250026D5CA /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CA21491A55EC250026D5CA /* UIViewController+MMDrawerController.m */; };
+		54CA21561A55EC250026D5CA /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CA214C1A55EC250026D5CA /* SwiftyJSON.swift */; };
+		54CA215B1A55ECE00026D5CA /* DollarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CA21581A55ECE00026D5CA /* DollarExtension.swift */; };
+		54CA215C1A55ECE00026D5CA /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CA21591A55ECE00026D5CA /* UIColorExtension.swift */; };
+		54CA215D1A55ECE00026D5CA /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CA215A1A55ECE00026D5CA /* UIViewControllerExtension.swift */; };
+		54CD28231A55D67F0003E4B8 /* COBaseStationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CD28221A55D67F0003E4B8 /* COBaseStationsViewController.swift */; };
 		54D729C01A521E4800EF4EB2 /* COMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D729BF1A521E4800EF4EB2 /* COMenuViewController.swift */; };
 		54D729C71A521E5F00EF4EB2 /* COMenuItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D729C61A521E5F00EF4EB2 /* COMenuItemTableViewCell.swift */; };
 		DB34D2312AAEED08C9DF8FC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34D0A6E49F04FFD8E83566 /* AppDelegate.swift */; };
@@ -37,83 +40,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5478BF771A5243DA008246FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 54ADE62D1A51C4300039EF3D /* SwiftyJSON.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 2E4FEFDA19575BE100351305;
-			remoteInfo = SwiftyJSON;
-		};
-		54ADE6271A51C41F0039EF3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 54ADE6221A51C41E0039EF3D /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
-			remoteInfo = Alamofire;
-		};
-		54ADE6291A51C41F0039EF3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 54ADE6221A51C41E0039EF3D /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
-			remoteInfo = AlamofireTests;
-		};
-		54ADE62B1A51C4280039EF3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 54ADE6221A51C41E0039EF3D /* Alamofire.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
-			remoteInfo = Alamofire;
-		};
-		54ADE6341A51C4300039EF3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 54ADE62D1A51C4300039EF3D /* SwiftyJSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2E4FEFDB19575BE100351305;
-			remoteInfo = SwiftyJSON;
-		};
-		54ADE6361A51C4300039EF3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 54ADE62D1A51C4300039EF3D /* SwiftyJSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2E4FEFE619575BE100351305;
-			remoteInfo = SwiftyJSONTests;
-		};
-		54ADE6381A51C4300039EF3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 54ADE62D1A51C4300039EF3D /* SwiftyJSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4EC1C1C91A0C1A2D0026ED0B;
-			remoteInfo = SwiftyJSONOSX;
-		};
-		54ADE63A1A51C4300039EF3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 54ADE62D1A51C4300039EF3D /* SwiftyJSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4EC1C1D31A0C1A2D0026ED0B;
-			remoteInfo = SwiftyJSONOSXTests;
-		};
-		54ADE6431A51C5CC0039EF3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 54ADE63E1A51C5CC0039EF3D /* Dollar.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 92E0D03C19467C67002ACC3D;
-			remoteInfo = Dollar;
-		};
-		54ADE6451A51C5CC0039EF3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 54ADE63E1A51C5CC0039EF3D /* Dollar.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 92E6686F19F09C6400BB4FB8;
-			remoteInfo = DollarTests;
-		};
-		54ADE6471A51C5D70039EF3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 54ADE63E1A51C5CC0039EF3D /* Dollar.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 92E0D03B19467C67002ACC3D;
-			remoteInfo = Dollar;
-		};
 		DB34D59BE6BCC98C8E0CEC33 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DB34DCF278F4654370B21E60 /* Project object */;
@@ -130,9 +56,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5478BF7F1A5244CC008246FB /* Dollar.framework in Copy Frameworks */,
-				5478BF7D1A5244A4008246FB /* SwiftyJSON.framework in Copy Frameworks */,
-				5478BF7C1A52449B008246FB /* Alamofire.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,23 +67,32 @@
 		5458267B1A5381C100C0ED55 /* StopWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
 		547752BD1A5225DD00DD0A98 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		547752C41A52351500DD0A98 /* COAroundMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COAroundMeViewController.swift; sourceTree = "<group>"; };
-		54ADE6221A51C41E0039EF3D /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = ../Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
-		54ADE62D1A51C4300039EF3D /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = ../SwiftyJSON/SwiftyJSON.xcodeproj; sourceTree = "<group>"; };
-		54ADE63E1A51C5CC0039EF3D /* Dollar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Dollar.xcodeproj; path = ../Dollar.swift/Dollar/Dollar.xcodeproj; sourceTree = "<group>"; };
 		54B275331A517BCB002F75D9 /* COStationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COStationTableViewCell.swift; sourceTree = "<group>"; };
-		54B54A381A51E10A0040AB92 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		54B54A3F1A51E1290040AB92 /* DollarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DollarExtension.swift; sourceTree = "<group>"; };
-		54B54A541A51FF690040AB92 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
-		54B54A551A51FF690040AB92 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
-		54B54A561A51FF690040AB92 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
-		54B54A571A51FF690040AB92 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
-		54B54A581A51FF690040AB92 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
-		54B54A591A51FF690040AB92 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
-		54B54A5A1A51FF690040AB92 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
-		54B54A5B1A51FF690040AB92 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
-		54B54A5C1A51FF690040AB92 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
 		54B54A631A5205A50040AB92 /*  Commute-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = " Commute-Bridging-Header.h"; sourceTree = "<group>"; };
-		54B54A641A520C900040AB92 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		54CA210E1A55D8050026D5CA /* COResultStationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COResultStationsViewController.swift; sourceTree = "<group>"; };
+		54CA21241A55E5D20026D5CA /* COStationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = COStationTableViewCell.xib; sourceTree = "<group>"; };
+		54CA21381A55EC250026D5CA /* Alamofire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alamofire.h; sourceTree = "<group>"; };
+		54CA21391A55EC250026D5CA /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		54CA213A1A55EC250026D5CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54CA213C1A55EC250026D5CA /* AutoCurry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCurry.swift; sourceTree = "<group>"; };
+		54CA213D1A55EC250026D5CA /* Dollar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dollar.h; sourceTree = "<group>"; };
+		54CA213E1A55EC250026D5CA /* Dollar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dollar.swift; sourceTree = "<group>"; };
+		54CA213F1A55EC250026D5CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54CA21411A55EC250026D5CA /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		54CA21421A55EC250026D5CA /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		54CA21431A55EC250026D5CA /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		54CA21441A55EC250026D5CA /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		54CA21451A55EC250026D5CA /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		54CA21461A55EC250026D5CA /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		54CA21471A55EC250026D5CA /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		54CA21481A55EC250026D5CA /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		54CA21491A55EC250026D5CA /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		54CA214B1A55EC250026D5CA /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
+		54CA214C1A55EC250026D5CA /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		54CA21581A55ECE00026D5CA /* DollarExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DollarExtension.swift; sourceTree = "<group>"; };
+		54CA21591A55ECE00026D5CA /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		54CA215A1A55ECE00026D5CA /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		54CD28221A55D67F0003E4B8 /* COBaseStationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COBaseStationsViewController.swift; sourceTree = "<group>"; };
 		54D729BF1A521E4800EF4EB2 /* COMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COMenuViewController.swift; sourceTree = "<group>"; };
 		54D729C61A521E5F00EF4EB2 /* COMenuItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = COMenuItemTableViewCell.swift; sourceTree = "<group>"; };
 		DB34D0A6E49F04FFD8E83566 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -180,9 +112,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5478BF761A5243C5008246FB /* SwiftyJSON.framework in Frameworks */,
-				5478BF741A524391008246FB /* Dollar.framework in Frameworks */,
-				5478BF731A52438D008246FB /* Alamofire.framework in Frameworks */,
 				54472D271A52367000F83EDD /* CoreLocation.framework in Frameworks */,
 				547752BE1A5225DD00DD0A98 /* MapKit.framework in Frameworks */,
 			);
@@ -198,50 +127,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54ADE6231A51C41E0039EF3D /* Products */ = {
+		54CA21361A55EC250026D5CA /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				54ADE6281A51C41F0039EF3D /* Alamofire.framework */,
-				54ADE62A1A51C41F0039EF3D /* AlamofireTests.xctest */,
+				54CA21371A55EC250026D5CA /* Alamofire */,
+				54CA213B1A55EC250026D5CA /* Dollar */,
+				54CA21401A55EC250026D5CA /* MMDrawerController */,
+				54CA214A1A55EC250026D5CA /* SwiftyJSON */,
 			);
-			name = Products;
+			path = Libs;
+			sourceTree = SOURCE_ROOT;
+		};
+		54CA21371A55EC250026D5CA /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				54CA21381A55EC250026D5CA /* Alamofire.h */,
+				54CA21391A55EC250026D5CA /* Alamofire.swift */,
+				54CA213A1A55EC250026D5CA /* Info.plist */,
+			);
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		54ADE62E1A51C4300039EF3D /* Products */ = {
+		54CA213B1A55EC250026D5CA /* Dollar */ = {
 			isa = PBXGroup;
 			children = (
-				54ADE6351A51C4300039EF3D /* SwiftyJSON.framework */,
-				54ADE6371A51C4300039EF3D /* SwiftyJSONTests.xctest */,
-				54ADE6391A51C4300039EF3D /* SwiftyJSON.framework */,
-				54ADE63B1A51C4300039EF3D /* SwiftyJSONOSXTests.xctest */,
+				54CA213C1A55EC250026D5CA /* AutoCurry.swift */,
+				54CA213D1A55EC250026D5CA /* Dollar.h */,
+				54CA213E1A55EC250026D5CA /* Dollar.swift */,
+				54CA213F1A55EC250026D5CA /* Info.plist */,
 			);
-			name = Products;
+			path = Dollar;
 			sourceTree = "<group>";
 		};
-		54ADE63F1A51C5CC0039EF3D /* Products */ = {
+		54CA21401A55EC250026D5CA /* MMDrawerController */ = {
 			isa = PBXGroup;
 			children = (
-				54ADE6441A51C5CC0039EF3D /* Dollar.framework */,
-				54ADE6461A51C5CC0039EF3D /* DollarTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		54B54A531A51FF690040AB92 /* MMDrawerController */ = {
-			isa = PBXGroup;
-			children = (
-				54B54A541A51FF690040AB92 /* MMDrawerBarButtonItem.h */,
-				54B54A551A51FF690040AB92 /* MMDrawerBarButtonItem.m */,
-				54B54A561A51FF690040AB92 /* MMDrawerController+Subclass.h */,
-				54B54A571A51FF690040AB92 /* MMDrawerController.h */,
-				54B54A581A51FF690040AB92 /* MMDrawerController.m */,
-				54B54A591A51FF690040AB92 /* MMDrawerVisualState.h */,
-				54B54A5A1A51FF690040AB92 /* MMDrawerVisualState.m */,
-				54B54A5B1A51FF690040AB92 /* UIViewController+MMDrawerController.h */,
-				54B54A5C1A51FF690040AB92 /* UIViewController+MMDrawerController.m */,
+				54CA21411A55EC250026D5CA /* MMDrawerBarButtonItem.h */,
+				54CA21421A55EC250026D5CA /* MMDrawerBarButtonItem.m */,
+				54CA21431A55EC250026D5CA /* MMDrawerController+Subclass.h */,
+				54CA21441A55EC250026D5CA /* MMDrawerController.h */,
+				54CA21451A55EC250026D5CA /* MMDrawerController.m */,
+				54CA21461A55EC250026D5CA /* MMDrawerVisualState.h */,
+				54CA21471A55EC250026D5CA /* MMDrawerVisualState.m */,
+				54CA21481A55EC250026D5CA /* UIViewController+MMDrawerController.h */,
+				54CA21491A55EC250026D5CA /* UIViewController+MMDrawerController.m */,
 			);
 			path = MMDrawerController;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
+		};
+		54CA214A1A55EC250026D5CA /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				54CA214B1A55EC250026D5CA /* SwiftyJSON.h */,
+				54CA214C1A55EC250026D5CA /* SwiftyJSON.swift */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		54CA21571A55ECE00026D5CA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				54CA21581A55ECE00026D5CA /* DollarExtension.swift */,
+				54CA21591A55ECE00026D5CA /* UIColorExtension.swift */,
+				54CA215A1A55ECE00026D5CA /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
 		};
 		DB34D334368BEAF04C9E393B /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -273,21 +224,22 @@
 		DB34D8204F9126889CE85F72 /* Commute */ = {
 			isa = PBXGroup;
 			children = (
-				54B54A531A51FF690040AB92 /* MMDrawerController */,
+				54CA21571A55ECE00026D5CA /* Extensions */,
+				54CA21361A55EC250026D5CA /* Libs */,
 				DB34D334368BEAF04C9E393B /* Supporting Files */,
 				DB34DD1C738C241FF7A056E1 /* Images.xcassets */,
 				DB34DC7EE6A8DB8C1D22BCFC /* LaunchScreen.xib */,
 				DB34D0A6E49F04FFD8E83566 /* AppDelegate.swift */,
 				DB34DC9A0D709A5A2ADEE152 /* Main.storyboard */,
 				547752C41A52351500DD0A98 /* COAroundMeViewController.swift */,
+				54CD28221A55D67F0003E4B8 /* COBaseStationsViewController.swift */,
 				DB34D2F0C0FAABCDCAD30E5B /* COStationsViewController.swift */,
+				54CA210E1A55D8050026D5CA /* COResultStationsViewController.swift */,
 				54B275331A517BCB002F75D9 /* COStationTableViewCell.swift */,
 				54D729BF1A521E4800EF4EB2 /* COMenuViewController.swift */,
 				54D729C61A521E5F00EF4EB2 /* COMenuItemTableViewCell.swift */,
-				54B54A381A51E10A0040AB92 /* UIColorExtension.swift */,
-				54B54A3F1A51E1290040AB92 /* DollarExtension.swift */,
-				54B54A641A520C900040AB92 /* UIViewControllerExtension.swift */,
 				5458267B1A5381C100C0ED55 /* StopWatch.swift */,
+				54CA21241A55E5D20026D5CA /* COStationTableViewCell.xib */,
 			);
 			path = Commute;
 			sourceTree = "<group>";
@@ -305,9 +257,6 @@
 			children = (
 				54472D261A52367000F83EDD /* CoreLocation.framework */,
 				547752BD1A5225DD00DD0A98 /* MapKit.framework */,
-				54ADE6221A51C41E0039EF3D /* Alamofire.xcodeproj */,
-				54ADE62D1A51C4300039EF3D /* SwiftyJSON.xcodeproj */,
-				54ADE63E1A51C5CC0039EF3D /* Dollar.xcodeproj */,
 				DB34D44B26B1D343C6F81336 /* Products */,
 				DB34D8204F9126889CE85F72 /* Commute */,
 				DB34D484BE497641248AA645 /* CommuteTests */,
@@ -329,9 +278,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				5478BF781A5243DA008246FB /* PBXTargetDependency */,
-				54ADE6481A51C5D70039EF3D /* PBXTargetDependency */,
-				54ADE62C1A51C4280039EF3D /* PBXTargetDependency */,
 			);
 			name = Commute;
 			productName = Commute;
@@ -379,20 +325,6 @@
 			mainGroup = DB34DCDF092BD5095CE0622A;
 			productRefGroup = DB34D44B26B1D343C6F81336 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 54ADE6231A51C41E0039EF3D /* Products */;
-					ProjectRef = 54ADE6221A51C41E0039EF3D /* Alamofire.xcodeproj */;
-				},
-				{
-					ProductGroup = 54ADE63F1A51C5CC0039EF3D /* Products */;
-					ProjectRef = 54ADE63E1A51C5CC0039EF3D /* Dollar.xcodeproj */;
-				},
-				{
-					ProductGroup = 54ADE62E1A51C4300039EF3D /* Products */;
-					ProjectRef = 54ADE62D1A51C4300039EF3D /* SwiftyJSON.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				DB34D1597A64E00AFB031451 /* Commute */,
@@ -400,65 +332,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		54ADE6281A51C41F0039EF3D /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 54ADE6271A51C41F0039EF3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		54ADE62A1A51C41F0039EF3D /* AlamofireTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AlamofireTests.xctest;
-			remoteRef = 54ADE6291A51C41F0039EF3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		54ADE6351A51C4300039EF3D /* SwiftyJSON.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftyJSON.framework;
-			remoteRef = 54ADE6341A51C4300039EF3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		54ADE6371A51C4300039EF3D /* SwiftyJSONTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SwiftyJSONTests.xctest;
-			remoteRef = 54ADE6361A51C4300039EF3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		54ADE6391A51C4300039EF3D /* SwiftyJSON.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftyJSON.framework;
-			remoteRef = 54ADE6381A51C4300039EF3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		54ADE63B1A51C4300039EF3D /* SwiftyJSONOSXTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SwiftyJSONOSXTests.xctest;
-			remoteRef = 54ADE63A1A51C4300039EF3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		54ADE6441A51C5CC0039EF3D /* Dollar.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Dollar.framework;
-			remoteRef = 54ADE6431A51C5CC0039EF3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		54ADE6461A51C5CC0039EF3D /* DollarTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = DollarTests.xctest;
-			remoteRef = 54ADE6451A51C5CC0039EF3D /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DB34D20A9287E04CDB012102 /* Resources */ = {
@@ -474,8 +347,11 @@
 			files = (
 				DB34D6AF13F59DAE3A0E43BF /* Images.xcassets in Resources */,
 				54B275321A51721E002F75D9 /* Info.plist in Resources */,
-				54B275311A517212002F75D9 /* Main.storyboard in Resources */,
-				54B275301A51720F002F75D9 /* LaunchScreen.xib in Resources */,
+				54CA214E1A55EC250026D5CA /* Info.plist in Resources */,
+				54CA21261A55EB420026D5CA /* Main.storyboard in Resources */,
+				54CA21271A55EB450026D5CA /* LaunchScreen.xib in Resources */,
+				54CA21251A55E5D20026D5CA /* COStationTableViewCell.xib in Resources */,
+				54CA21511A55EC250026D5CA /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,40 +371,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB34D2312AAEED08C9DF8FC9 /* AppDelegate.swift in Sources */,
+				54CA21521A55EC250026D5CA /* MMDrawerBarButtonItem.m in Sources */,
 				5458267C1A5381C100C0ED55 /* StopWatch.swift in Sources */,
-				54B54A5D1A51FF690040AB92 /* MMDrawerBarButtonItem.m in Sources */,
-				54B54A651A520C900040AB92 /* UIViewControllerExtension.swift in Sources */,
-				54B54A5E1A51FF690040AB92 /* MMDrawerController.m in Sources */,
+				54CA21561A55EC250026D5CA /* SwiftyJSON.swift in Sources */,
+				54CA214D1A55EC250026D5CA /* Alamofire.swift in Sources */,
+				54CA210F1A55D8050026D5CA /* COResultStationsViewController.swift in Sources */,
+				54CA215D1A55ECE00026D5CA /* UIViewControllerExtension.swift in Sources */,
 				DB34D65071AEF15A6E36985F /* COStationsViewController.swift in Sources */,
+				54CA21551A55EC250026D5CA /* UIViewController+MMDrawerController.m in Sources */,
 				54D729C01A521E4800EF4EB2 /* COMenuViewController.swift in Sources */,
+				54CA215B1A55ECE00026D5CA /* DollarExtension.swift in Sources */,
+				54CA21501A55EC250026D5CA /* Dollar.swift in Sources */,
 				54D729C71A521E5F00EF4EB2 /* COMenuItemTableViewCell.swift in Sources */,
-				54B54A5F1A51FF690040AB92 /* MMDrawerVisualState.m in Sources */,
 				54B275341A517BCB002F75D9 /* COStationTableViewCell.swift in Sources */,
-				54B54A601A51FF690040AB92 /* UIViewController+MMDrawerController.m in Sources */,
-				54B54A391A51E10A0040AB92 /* UIColorExtension.swift in Sources */,
+				54CD28231A55D67F0003E4B8 /* COBaseStationsViewController.swift in Sources */,
+				54CA21541A55EC250026D5CA /* MMDrawerVisualState.m in Sources */,
 				547752C51A52351500DD0A98 /* COAroundMeViewController.swift in Sources */,
-				54B54A401A51E1290040AB92 /* DollarExtension.swift in Sources */,
+				54CA214F1A55EC250026D5CA /* AutoCurry.swift in Sources */,
+				54CA215C1A55ECE00026D5CA /* UIColorExtension.swift in Sources */,
+				54CA21531A55EC250026D5CA /* MMDrawerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5478BF781A5243DA008246FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyJSON;
-			targetProxy = 5478BF771A5243DA008246FB /* PBXContainerItemProxy */;
-		};
-		54ADE62C1A51C4280039EF3D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			targetProxy = 54ADE62B1A51C4280039EF3D /* PBXContainerItemProxy */;
-		};
-		54ADE6481A51C5D70039EF3D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Dollar;
-			targetProxy = 54ADE6471A51C5D70039EF3D /* PBXContainerItemProxy */;
-		};
 		DB34D83366F317AFC785AA82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DB34D1597A64E00AFB031451 /* Commute */;
